@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  mpi:
+    image: hw/mpi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    deploy:
+      resources:
+        limits:
+          cpus: "0.0"
+          memory: "0B"

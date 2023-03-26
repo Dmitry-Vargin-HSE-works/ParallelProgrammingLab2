@@ -34,7 +34,7 @@
 оптимальное количество процессов для этого алгоритма
 на моем компьютере - 5
 
-![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_rows/time_by_process.png)
+![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/blob/master/my_test/img/by_rows/time_by_process.png?raw=true)
 
 Расчитаем ускорение и эффективность в зависимости от размеров матриц:
 
@@ -62,11 +62,11 @@
 
 График ускорения от количества процессов:
 
-![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_rows/acceleration_by_proc_num.png)
+![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/blob/master/my_test/img/by_rows/acceleration_by_proc_num.png?raw=true)
 
 График эффективности от количества процессов:
 
-![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_rows/efficiency_by_proc_num.png)
+![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/blob/master/my_test/img/by_rows/efficiency_by_proc_num.png?raw=true)
 
 
 ### Статистика по столбцам
@@ -75,7 +75,7 @@
 оптимальное количество процессов для этого алгоритма
 на моем компьютере - 5
 
-![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_columns/time_by_process.png)
+![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/blob/master/my_test/img/by_columns/time_by_process.png?raw=true)
 
 Расчитаем ускорение и эффективность в зависимости от размеров матриц:
 
@@ -103,11 +103,11 @@
 
 График ускорения от количества процессов:
 
-![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_columns/acceleration_by_proc_num.png)
+![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/blob/master/my_test/img/by_columns/acceleration_by_proc_num.png?raw=true)
 
 График эффективности от количества процессов:
 
-![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_columns/efficiency_by_proc_num.png)
+![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/blob/master/my_test/img/by_columns/efficiency_by_proc_num.png?raw=true)
 
 
 ## Выводы

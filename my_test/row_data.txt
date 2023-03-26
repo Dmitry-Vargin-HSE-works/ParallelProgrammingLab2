@@ -1,4 +1,4 @@
-processes lsize msize rsize result
+processes lsize msize rsize time
 1 8 8 8 2.7e-05
 2 8 8 8 0.000105
 3 8 8 8 0.000154

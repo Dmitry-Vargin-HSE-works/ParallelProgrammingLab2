@@ -19,7 +19,7 @@ def set_up_function():
         raise ex
     finally:
         with open(FILE_PATH, "w") as FILE:
-            FILE.write("processes lsize msize rsize result\n")
+            FILE.write("processes lsize msize rsize time\n")
             FILE.write("\n".join(DATA))
 
 

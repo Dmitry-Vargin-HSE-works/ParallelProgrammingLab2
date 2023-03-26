@@ -10,4 +10,4 @@ COPY ./ $APP_DIR
 
 RUN mpic++ ${APP_SRC} -o ${APP_EXC}
 
-#CMD mpiexec -n 4 --oversubscribe ${APP_EXC} 128 128 128 0
+#CMD mpirun -n 4 --oversubscribe ${APP_EXC} 128 128 128 0

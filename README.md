@@ -75,16 +75,16 @@
 оптимальное количество процессов для этого алгоритма
 на моем компьютере - 5
 
-![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_rows/time_by_process.png)
+![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_columns/time_by_process.png)
 
 Расчитаем ускорение и эффективность в зависимости от размеров матриц:
 
 | Size | Time for 1 process | Time for 5 process | Acceleration | Efficiency |
 |------|--------------------|--------------------|--------------|------------|
-| 8    | 0.000027           | 0.000187           | 0.144385     | 0.028877   |
-| 64   | 0.001606           | 0.001100           | 1.460000     | 0.292000   |
-| 256  | 0.123352           | 0.056327           | 2.189927     | 0.000187   |
-| 1024 | 7.170435           | 2.929540           | 2.447632     | 0.437985   |
+| 8    | 0.000047           | 0.000357           | 0.131653     | 0.026331   |
+| 64   | 0.001249           | 0.001051           | 1.188392     | 0.237678   |
+| 256  | 0.090620           | 0.042336           | 2.140495     | 0.428099   |
+| 1024 | 5.699823           | 2.253863           | 2.528913     | 0.505783   |
 
 А также в зависимости от количества процессов при размерах 1024*1024:
 
@@ -92,20 +92,23 @@
 
 | Processes | Time     | Acceleration | Efficiency |
 |-----------|----------|--------------|------------|
-| 1         | 7.170435 | 1.000000     | 1.000000   |
-| 2         | 4.381624 | 1.636479     | 0.818239   |
-| 3         | 3.516024 | 2.039359     | 0.679786   |
-| 4         | 3.071078 | 2.334827     | 0.583707   |
-| 5         | 2.929540 | 2.447632     | 0.489526   |
-| 6         | 3.223147 | 2.224669     | 0.370778   |
-| 7         | 3.027048 | 2.368788     | 0.338398   |
-| 8         | 3.457495 | 2.073882     | 0.259235   |
+| 1         | 5.699823 | 1.000000     | 1.000000   |
+| 2         | 3.759737 | 1.516016     | 0.758008   |
+| 3         | 2.845423 | 2.003155     | 0.667718   |
+| 4         | 2.526073 | 2.256397     | 0.564099   |
+| 5         | 2.253863 | 2.528913     | 0.505783   |
+| 6         | 2.196998 | 2.594369     | 0.432395   |
+| 7         | 2.044869 | 2.787378     | 0.398197   |
+| 8         | 2.095000 | 2.720679     | 0.340085   |
 
 График ускорения от количества процессов:
 
-![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_rows/acceleration_by_proc_num.png)
+![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_columns/acceleration_by_proc_num.png)
 
 График эффективности от количества процессов:
 
-![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_rows/efficiency_by_proc_num.png)
+![alt text](https://github.com/Dmitry-Vargin-HSE-works/ParallelProgrammingLab2/tree/master/my_test/img/by_columns/efficiency_by_proc_num.png)
 
+
+## Выводы
+Исходя из данных выше разбиение по столбцам было на примерно 25% быстрее.
